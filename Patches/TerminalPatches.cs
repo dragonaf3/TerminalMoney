@@ -10,9 +10,7 @@ namespace TerminalMoney.Patches
         {
             if (Plugin.MoneyCommandActivated)
             {
-                // Setzt die Credits nur, wenn der Befehl aktiviert wurde
                 ___groupCredits = 1000000;
-                // Optional: Zustand zurücksetzen, falls einmalige Anwendung gewünscht
                 Plugin.MoneyCommandActivated = false;
             }
         }
