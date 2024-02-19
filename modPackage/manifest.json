@@ -1,0 +1,10 @@
+﻿{
+  "name": "TerminalMoney",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/dragonaf3/TerminalMoney",
+  "description": "Adds the command \"rich\" in the terminal, which gives 1,000,000 credits",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "NotAtomicBomb-TerminalApi-1.5.*"
+  ]
+}
